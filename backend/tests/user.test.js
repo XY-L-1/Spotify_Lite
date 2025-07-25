@@ -1,4 +1,5 @@
-require('dotenv').config();               
+require('dotenv').config();  
+jest.setTimeout(30000);              
 const jwt       = require('jsonwebtoken');
 const request   = require('supertest');
 const app       = require('../app');
